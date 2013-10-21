@@ -1,0 +1,77 @@
+@color: #00FFFF;
+h1 {
+
+color: @color;
+}
+
+h2 {
+color: @color;
+}
+
+@font:"Trebuchet MS", Helvetica, sans-serif;
+h1 {
+
+font-family:@font;
+}
+
+h2 {
+font-family:@font;
+}
+
+p {
+font-family:@font;
+}
+
+.nav {
+a:link,
+a:visited,
+a:hover,
+a:active {
+color:#08c;
+}
+}
+
+@corner-radius: 20px; 
+.nav {
+border-radius: @corner-radius;
+-moz-border-radius: @corner-radius;
+-webkit-border-radius: @corner-radius;
+}
+
+@switch: light;
+.nav {
+a:hover{
+.mixin(@switch; #888);
+}
+}
+
+.mixin (dark; @color) {
+color: darken(@color, 10%);
+}
+.mixin (light; @color) {
+color: lighten(@color, 10%);
+}
+.mixin (@_; @color) {
+display: center;
+}
+
+a {
+opacity:1.90;
+text-decoration:none;
+font-size:1.1rem;
+}
+
+a:hover {
+opacity:3;
+}
+
+.mixin (@li) when (iscolor(@color)) {
+opacity:0.30;
+font-size:0.5rem;
+}
+
+
+
+
+
+

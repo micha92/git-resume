@@ -1,0 +1,25 @@
+nav {
+height: 5 rem;
+}
+#sidebar {
+width: 50%;
+float:left;
+}
+.intro, .main, .footer {
+float: left;
+width:75%;
+}
+.intro {
+margin-top: 150px;
+}
+div#featured ul { 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div#featured li {
+    float: right;
+    height: 100px;
+    margin-right: 10px;
+}

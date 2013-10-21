@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#fff;
+}
+#body {
+    width:960px;
+    margin:30 auto;
+    background:#ddd;
+}
+#header {
+    background:#fdd;
+}
+#content-1 {
+    background:#bfb;
+}
+#content-2-1 {
+    background:#ddf;
+}
+#content-2-2 {
+    background:#dff;
+}
+#footer {
+    background:#ff9;
+}

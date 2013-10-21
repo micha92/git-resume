@@ -1,0 +1,30 @@
+html {
+background:url(background.jpg);
+}
+body {
+width:900 px;
+height:200%;
+min-height:100%;
+margin:10 auto;
+padding: 50px 48px 0;
+line-height:2;
+color:#FFF8DC;
+font-family:ff-tisa-web-pro, Georgia, sans-serif;
+-webkit-text-size-adjust:200%;
+}
+div {
+font-color:white;
+margin:25px;
+padding:25px;
+capacity:.5;
+}
+p {
+color: #FFF8DC;
+line-height: 200%;
+margin-top: 10px;
+margin-left: 10px;
+}
+a:link {color:#FF9999;}      
+a:visited {color:#00FF00;}  
+a:hover {color:#FF00FF;} 
+a:active {color:#0000FF;}
